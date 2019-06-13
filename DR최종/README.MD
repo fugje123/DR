@@ -950,7 +950,7 @@ val_generator = datagen.flow_from_directory(
     batch_size=BATCH_SIZE, 
     subset='validation')
 ```
-* BATCH_SIZE = 가중치 
+* BATCH_SIZE = epochs를 나누어 실행하는 횟수 
 * validation_slit = 비교데이터 
 ```
 model = tf.keras.Sequential([
@@ -961,7 +961,7 @@ model = tf.keras.Sequential([
   tf.keras.layers.Dense(5, activation='softmax')
 ])
 ```
-* Dense = 클래스 개수
+* Dense = 클래스 개수와 동일하게 설정
 ```
 epochs = 10
 
