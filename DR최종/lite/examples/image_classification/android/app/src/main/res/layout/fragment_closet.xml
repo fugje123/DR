@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#dddddd"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/set"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="채팅하기"
+            android:textColor="#000000"
+            android:textSize="40dp"
+            android:background="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="520dp">
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_marginTop="145dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="368dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="150dp"
+                    android:textSize="20dp"
+                    android:text="다른 사람들과 실시간으로 옷에 대해 이야기해요!"
+                    android:textColor="@color/black"/>
+
+                <ImageButton
+                    android:id="@+id/chat"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="130dp"
+                    android:background="#00000000"
+                    app:srcCompat="@android:drawable/btn_star_big_on" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="입장하기"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="180dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+</RelativeLayout>

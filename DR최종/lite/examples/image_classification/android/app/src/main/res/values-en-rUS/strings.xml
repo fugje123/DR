@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DR</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="toggle_turn_on">NN:On</string>
+    <string name="toggle_turn_off">NN:Off</string>
+    <string name="toggle">Use NNAPI</string>
+    <string name="tflite">tflite</string>
+    <string name="nnapi">NNAPI</string>
+    <string name="threads">Threads:</string>
+    <string name="cityname">City name</string>
+    <string name="selnation">Country selection</string>
+    <string name="korea">Korea</string>
+    <string name="america">USA</string>
+    <string name="japan">Japan</string>
+    <string name="settings">Settings</string>
+    <string name="mysetting">My account</string>
+    <string name="langsetting">Language settings</string>
+    <string name="closet">Closet</string>
+    <string name="category">Category</string>
+    <string name="spring">Spring</string>
+    <string name="summer">Summer</string>
+    <string name="fall">Fall</string>
+    <string name="winter">Winter</string>
+    <string name="textView2">Voice recognition</string>
+    <string name="textView3">Search logo</string>
+    <string name="search">Search</string>
+    <string name="home">Home</string>
+    <string name="my_setting">My account</string>
+    <string name="button2">Change password</string>
+    <string name="button3">Find password</string>
+    <string name="button4">Log in</string>
+    <string name="language_setting">Language settings</string>
+    <string name="button_Kor">한글</string>
+    <string name="button_USA">English</string>
+    <string name="button_Japan">日本語</string>
+    <string name="memberButton">Register member information</string>
+    <string name="registerButton">Sign up</string>
+    <string name="validateButton">Verification</string>
+    <string name="textView">Log in</string>
+    <string name="upload_paused">Upload is paused</string>
+    <string name="loading">Loading…</string>
+
+
+    <string name="model">Model:</string>
+    <string-array name="models">
+        <item>Float</item>
+        <item>Quantized</item>
+    </string-array>
+
+    <string name="device">Device:</string>
+    <string-array name="devices">
+        <item>CPU</item>
+        <item>GPU</item>
+        <item>NNAPI</item>
+    </string-array>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_closet">Closet</string>
+    <string name="title_category">Category</string>
+    <string name="title_setting">Setting</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_account">AccountActivity</string>
+    <string name="title_activity_lang">LangActivity</string>
+</resources>

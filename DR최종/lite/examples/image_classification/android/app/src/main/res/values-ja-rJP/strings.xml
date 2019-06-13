@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DR</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="toggle_turn_on">NN:On</string>
+    <string name="toggle_turn_off">NN:Off</string>
+    <string name="toggle">Use NNAPI</string>
+    <string name="tflite">tflite</string>
+    <string name="nnapi">NNAPI</string>
+    <string name="threads">Threads:</string>
+    <string name="cityname">都市名</string>
+    <string name="selnation">国家選択</string>
+    <string name="korea">韓国</string>
+    <string name="america">アメリカ合衆国</string>
+    <string name="japan">日本</string>
+    <string name="settings">設定</string>
+    <string name="mysetting">アカウント</string>
+    <string name="langsetting">言語設定</string>
+    <string name="closet">箪笥</string>
+    <string name="category">カテゴリ</string>
+    <string name="spring">春</string>
+    <string name="summer">夏</string>
+    <string name="fall">秋</string>
+    <string name="winter">冬</string>
+    <string name="textView2">音声認識</string>
+    <string name="textView3">ロゴ</string>
+    <string name="search">検索</string>
+    <string name="home">ホーム</string>
+    <string name="my_setting">アカウント</string>
+    <string name="button2">パスワード変更</string>
+    <string name="button3">パスワードを探す</string>
+    <string name="button4">ログイン</string>
+    <string name="language_setting">言語設定</string>
+    <string name="button_Kor">한글</string>
+    <string name="button_USA">English</string>
+    <string name="button_Japan">日本語</string>
+    <string name="memberButton">会員情報登録</string>
+    <string name="registerButton">会員登録</string>
+    <string name="validateButton">重複確認</string>
+    <string name="textView">ログイン</string>
+    <string name="upload_paused">Upload is paused</string>
+    <string name="loading">Loading…</string>
+
+    <string name="model">Model:</string>
+    <string-array name="models">
+        <item>Float</item>
+        <item>Quantized</item>
+    </string-array>
+
+    <string name="device">Device:</string>
+    <string-array name="devices">
+        <item>CPU</item>
+        <item>GPU</item>
+        <item>NNAPI</item>
+    </string-array>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">ホーム</string>
+    <string name="title_closet">箪笥</string>
+    <string name="title_category">カテゴリー</string>
+    <string name="title_setting">設定</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_account">AccountActivity</string>
+    <string name="title_activity_lang">LangActivity</string>
+</resources>

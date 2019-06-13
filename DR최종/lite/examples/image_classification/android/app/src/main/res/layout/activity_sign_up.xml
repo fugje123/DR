@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="회원가입"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" android:id="@+id/textView" android:textSize="24dp" android:textStyle="bold"
+        android:textColor="#000000" android:gravity="center"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:padding="10dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/emailEditText" android:hint="이메일" android:layout_marginBottom="5dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/passwordEditText" android:hint="비밀번호" android:layout_marginBottom="5dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/passwordCheckEditText" android:hint="비밀번호 확인" android:layout_marginBottom="5dp"/>
+        <Button
+            android:text="회원가입"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:layout_height="wrap_content" android:id="@+id/signupButton"/>
+
+        <Button
+            android:id="@+id/gotoLoginButton"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="로그인" />
+    </LinearLayout>
+</LinearLayout>

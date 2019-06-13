@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.tensorflow.lite.examples.classification">
+
+    <uses-sdk />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="DR"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ChatActivity"></activity>
+        <activity android:name=".StartActivity"></activity>
+
+        <activity android:name=".IntroActivity"></activity>
+        <activity
+            android:name=".LangActivity"
+            android:label="@string/title_activity_lang"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.tensorflow.lite.examples.classification.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AccountActivity"
+            android:label="@string/title_activity_account"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.tensorflow.lite.examples.classification.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/title_activity_search"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.tensorflow.lite.examples.classification.MainActivity" />
+        </activity>
+        <activity android:name=".Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".loginActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".PasswordResetActivity" />
+        <activity android:name=".MemberInitActivity" />
+        <activity android:name=".SpringActivity" />
+        <activity android:name=".SummerActivity" />
+        <activity android:name=".FallActivity" />
+        <activity android:name=".WinterActivity" />
+        <activity android:name=".UploadActivity"></activity>
+        <activity
+            android:name=".ClassifierActivity"
+            android:label="@string/activity_name_classification"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.WeatherDetails" />
+    </application>
+
+</manifest>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DR</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="toggle_turn_on">NN:On</string>
+    <string name="toggle_turn_off">NN:Off</string>
+    <string name="toggle">Use NNAPI</string>
+    <string name="tflite">tflite</string>
+    <string name="nnapi">NNAPI</string>
+    <string name="threads">Threads:</string>
+    <string name="cityname">도시 이름</string>
+    <string name="selnation">국가 선택</string>
+    <string name="korea">한국</string>
+    <string name="america">미국</string>
+    <string name="japan">일본</string>
+    <string name="settings">설정</string>
+    <string name="mysetting">내 계정</string>
+    <string name="langsetting">언어설정</string>
+    <string name="closet">옷장</string>
+    <string name="category">카테고리</string>
+    <string name="spring">봄</string>
+    <string name="summer">여름</string>
+    <string name="fall">가을</string>
+    <string name="winter">겨울</string>
+    <string name="textView2">음성 인식</string>
+    <string name="textView3">로고 검색</string>
+    <string name="search">검색</string>
+    <string name="home">홈</string>
+    <string name="my_setting">내 계정</string>
+    <string name="button2">비밀번호 변경</string>
+    <string name="button3">비밀번호 찾기</string>
+    <string name="button4">로그인</string>
+    <string name="language_setting">언어설정</string>
+    <string name="button_Kor">한글</string>
+    <string name="button_USA">English</string>
+    <string name="button_Japan">日本語</string>
+    <string name="memberButton">회원 정보 등록</string>
+    <string name="registerButton">회원가입</string>
+    <string name="validateButton">중복확인</string>
+    <string name="textView">로그인</string>
+    <string name="upload_paused">Upload is paused</string>
+    <string name="loading">Loading…</string>
+
+
+    <string name="model">Model:</string>
+    <string-array name="models">
+        <item>Float</item>
+        <item>Quantized</item>
+    </string-array>
+
+    <string name="device">Device:</string>
+    <string-array name="devices">
+        <item>CPU</item>
+        <item>GPU</item>
+        <item>NNAPI</item>
+    </string-array>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">홈</string>
+    <string name="title_closet">옷장</string>
+    <string name="title_category">카테고리</string>
+    <string name="title_setting">설정</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_account">AccountActivity</string>
+    <string name="title_activity_lang">LangActivity</string>
+</resources>

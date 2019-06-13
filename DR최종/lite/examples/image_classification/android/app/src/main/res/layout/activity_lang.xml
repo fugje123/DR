@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/langsetting"
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:text="@string/langsetting" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_Kor"
+            android:textStyle="bold"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:text="@string/button_Kor"/>
+        <Button
+            android:id="@+id/button_USA"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:textSize="30dp"
+            android:background="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_USA" />
+        <Button
+            android:id="@+id/button_Jp"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_weight="1"
+            android:text="@string/button_Japan" />
+    </LinearLayout>
+</LinearLayout>

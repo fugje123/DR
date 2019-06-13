@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+   <android.support.v4.widget.SwipeRefreshLayout
+       android:id="@+id/swipeRefresh"
+       app:layout_behavior="@string/appbar_scrolling_view_behavior"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       >
+
+      <android.support.v7.widget.RecyclerView
+          android:id="@+id/recyclerViewWeatherCards"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:scrollbars="vertical"
+          android:background="#F2F2F2"
+          />
+   </android.support.v4.widget.SwipeRefreshLayout>
+
+   <android.support.design.widget.FloatingActionButton
+       android:id="@+id/fabAddCity"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="348dp"
+       android:layout_marginTop="427dp"
+       android:layout_marginRight="100dp"
+       android:layout_marginBottom="16dp"
+       android:src="@drawable/skycloud"
+       app:backgroundTint="@color/white"
+       app:fabSize="normal"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       tools:layout_editor_absoluteX="328dp"
+       tools:layout_editor_absoluteY="455dp" />
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentStart="true"
+       android:layout_above="@+id/linearLayout">
+
+      <android.support.v4.view.ViewPager
+          android:id="@+id/mainViewPager"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          tools:layout="@layout/activity_main" />
+
+
+   </LinearLayout>
+
+
+<FrameLayout
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@id/bottom_navigation">
+</FrameLayout>
+
+   <android.support.design.widget.BottomNavigationView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:backgroundTint="@color/white"
+       app:itemIconTint="@color/black"
+       app:menu="@menu/bottom_nav_menu"
+       android:id="@+id/bottom_navigation"
+       android:background="?android:attr/windowBackground"/>
+
+</RelativeLayout>
