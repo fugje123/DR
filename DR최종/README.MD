@@ -50,7 +50,7 @@
 ![KakaoTalk_20190613_123850577](https://user-images.githubusercontent.com/48273803/59402324-c2132e00-8dd8-11e9-9469-896aa89ef81f.png)
 ![KakaoTalk_20190613_123900938](https://user-images.githubusercontent.com/48273803/59402327-c3445b00-8dd8-11e9-85a3-7cd85333ac46.png)
 # 구현동영상
-[YOUTUBE](https://www.youtube.com/)
+[YOUTUBE](https://www.youtube.com/watch?v=TtmAVXDuu-A)
 # **사용도구**
  
 * ### 날씨 : [Open Weather Map Weather API](https://"www.openweathermap.org),Butter Knife,Retrofit,Gson,Picasso
