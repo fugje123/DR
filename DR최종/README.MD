@@ -690,11 +690,10 @@ sharedPreferences -> Boolean, Integer, Float, Long, String 데이터 타입 같�
     * cuDNN 9.0 ver<br>
     ![cuDNN_logo_white_on_black_1432x920](https://user-images.githubusercontent.com/48273803/59387950-73986c00-8da5-11e9-938d-dd1593823525.png)
     <br> https://developer.nvidia.com/rdp/cudnn-archive <br>
-    자신의 개발환경에 맞춰 cuDNN v7.0.5 for CUDA 9.0 설치
-    <br>먼저 설치했던 Cuda폴더 (bin, include, lib)에 방금 설치한 (bin, include, lib) 삽입 후 재부팅
+    
     * Python 및 Tensorflow 개발환경 구축
     ![다운로드](https://user-images.githubusercontent.com/48273803/59389664-d1c74e00-8da9-11e9-860d-cc4d8504a6d8.png) <br>
-    GPU기반 Tensorflow 설치 Pip install tensorflow-gpu==1.5.0
+   
     <br> 설치 완료 후 가상환경에서 작업을 권장
     <br>activate 가상환경명
     
