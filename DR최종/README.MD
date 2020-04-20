@@ -667,8 +667,8 @@ sharedPreferences -> Boolean, Integer, Float, Long, String 데이터 타입 같�
 
     * ANACONDA <br>
     ![970eda25bcc65296690ac7714a66bbf5](https://user-images.githubusercontent.com/48273803/59389009-3b465d00-8da8-11e9-8e1e-4910eec0efaf.png) <br>
-    Download URL = https://repo.continuum.io/archive/ <br>
-    Ver. Anaconda 3 -4.2.0
+   
+   
     * PC 환경구축 <br>
     ![2435B63956B78A8F19](https://user-images.githubusercontent.com/48273803/59389241-d3444680-8da8-11e9-957f-3ed14f17f3d5.png) <br>
     ![2541AC4356B78A9016](https://user-images.githubusercontent.com/48273803/59389345-0b4b8980-8da9-11e9-8a45-950395c11553.png) <br>
@@ -681,15 +681,15 @@ sharedPreferences -> Boolean, Integer, Float, Long, String 데이터 타입 같�
     [Anaconda 가상환경 생성] conda create –name 가상환경명  python=3.5 <br>
     * CUDA Toolkit 9.0ver<br>
     ![27014](https://user-images.githubusercontent.com/48273803/59387912-595e8e00-8da5-11e9-80a0-a3b1da04c7c2.png) <br>
-    https://developer.nvidia.com/cuda-80-ga2-download-archive  <br>
-    CUDA Toolkit 9.0 base 자신의 개발환경에 맞추어 설치 <br><br>
+    
+
     Anaconda와 마찬가지로 시스템 변수 path 추가 <br>
     ![23049E4056B78A900F](https://user-images.githubusercontent.com/48273803/59389397-2a4a1b80-8da9-11e9-9d89-44dc617674f6.png)<br>
     CUDA\v9.0\bin, CUDA\v9.0\library <br>
     시스템변수 CUDA_PATH_V9_0, CUDA_PATH, CUDA_HOME 추가
     * cuDNN 9.0 ver<br>
     ![cuDNN_logo_white_on_black_1432x920](https://user-images.githubusercontent.com/48273803/59387950-73986c00-8da5-11e9-938d-dd1593823525.png)
-    <br> https://developer.nvidia.com/rdp/cudnn-archive <br>
+    <br>
     
     * Python 및 Tensorflow 개발환경 구축
     ![다운로드](https://user-images.githubusercontent.com/48273803/59389664-d1c74e00-8da9-11e9-860d-cc4d8504a6d8.png) <br>
