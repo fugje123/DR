@@ -915,12 +915,11 @@ def mobilenet_v2_cls(inputs,
    * GPU 사용법<br>
    수정 > 노트설정 > 하드웨어 가속기 GPU 선택
    * GoogleDrive <br>
-   https://drive.google.com/<br>
+ 
    ![캡처421](https://user-images.githubusercontent.com/48273803/59395195-a8182200-8dbd-11e9-82c2-13717584b8e8.PNG)<br>
    ![Inked캡처ee_LI](https://user-images.githubusercontent.com/48273803/59395511-4c4e9880-8dbf-11e9-9c96-b4fb7c141310.jpg)<br>
    수집한 데이터셋 압축 후 구글드라이브 업로드<br>
-   *공유 : 모든 사용자가 볼 수 있음
-   <br>링크 복사
+  
 ```
    _URL = "https://docs.google.com/uc?export=ID값" 
    zip_file = tf.keras.utils.get_file(origin=_URL, 
