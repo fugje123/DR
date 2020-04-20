@@ -905,11 +905,10 @@ def mobilenet_v2_cls(inputs,
     학습이 완료되면 label과 tffile이 출력<br>
 ![다운로드](https://user-images.githubusercontent.com/48273803/59397113-5f189b80-8dc6-11e9-8d91-a5e93462205f.jpg)
 
-경로 : lite\examples\image_classification\android\app\src\main\assets <br>(Models.tffile, labels)
+
 * Colab<br>
 ![3213](https://user-images.githubusercontent.com/48273803/59395063-0ee90b80-8dbd-11e9-8b1d-7e36e4c6f8c1.PNG)<br>
-https://colab.research.google.com/notebooks/welcome.ipynb<br>
-예제 : https://colab.research.google.com/github/tensorflow/examples/blob/master/community/en/flowers_tf_lite.ipynb#scrollTo=53OTCh3jnbwV&uniqifier=41<br>
+
    * 성능<br>
    RAM : 13GB <br>
    저장공간 : 33GB
